@@ -14,4 +14,4 @@ nota4 = leia.questionFloat("\nNota 4: ");
 
 media = (nota1 + nota2 + nota3 + nota4) / 4;
 
-console.log(`\nA média do aluno é: ${media.toFixed(1)}`);
+console.log(`\nMédia: ${media.toFixed(1)}`);

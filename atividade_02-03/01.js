@@ -4,9 +4,9 @@ let salario;
 let abono;
 let novoSalario;
 
-salario = leia.questionFloat('Digite o salario do funcionario: ');
-abono = leia.questionFloat('Digite o valor do abono: ');
+salario = leia.questionFloat('\nSalário: ');
+abono = leia.questionFloat('\nAbono: ');
 
 novoSalario = salario + abono;
 
-console.log(`O novo salario do funcionario é: ${novoSalario.toFixed(2)}`);
+console.log(`\nNovo Salário: ${novoSalario.toFixed(2)}`);
