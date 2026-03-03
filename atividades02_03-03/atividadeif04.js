@@ -20,11 +20,11 @@ let hematofago = ("Hematófago")
 selecione = leia.question(`Selecione um tipo\n${vertebrado} ou ${invertebrado}: `)
 
 if(selecione === "Vertebrado"){
-    console.log(`Selecione um subtipo\n${mamifero} ou ${ave}`)
+    vertebrado = leia.question(`Selecione um subtipo\n${mamifero} ou ${ave}: `)
         if(mamifero){
-            console.log(`Seleciona a alimentação\n${ornivoro} ${herbivoro}`)
+            mamifero = leia.question(`Seleciona a alimentação\n${ornivoro} ou ${herbivoro}: `)
         }else{
-            console.log(`Seleciona a alimentação\n${carnivoro} ${ornivoro}`)
+            ave = leia.question(`Seleciona a alimentação\n${carnivoro} ou ${ornivoro}: `)
         }
             if(mamifero && ornivoro){
                 console.log("Homem")
@@ -36,11 +36,11 @@ if(selecione === "Vertebrado"){
                 console.log("Pomba")
             }
 }else{
-    console.log(`Selecione um subtipo\n${inseto} ou ${anelideo}`)
+    invertebrado = leia.question(`Selecione um subtipo\n${inseto} ou ${anelideo}: `)
     if(inseto){
-            console.log(`Seleciona a alimentação\n${hematofago} ${herbivoro}`)
+            inseto = leia.question(`Seleciona a alimentação\n${hematofago} ou ${herbivoro}: `)
         }else{
-            console.log(`Seleciona a alimentação\n${hematofago} ${ornivoro}`)
+            anelideo = leia.question(`Seleciona a alimentação\n${hematofago} ou ${ornivoro}: `)
         }
             if(inseto && herbivoro){
                 console.log("Lagarta")
