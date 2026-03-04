@@ -13,10 +13,11 @@ while(continuar){
     }
     if(num <= 21){
         menor++;
-    } else {
+    } else if (num >= 51){
         maior++;
+    }else{
     }
 }
 
 console.log(`Total de pessoas menores de 21 anos: ${menor}`);
-console.log(`Total de pessoas maiores de 21 anos: ${maior}`);
+console.log(`Total de pessoas maiores de 50 anos: ${maior}`);
