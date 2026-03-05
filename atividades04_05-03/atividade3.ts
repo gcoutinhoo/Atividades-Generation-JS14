@@ -10,12 +10,12 @@ do {
 
     if (numeros.has(num)) {
         console.log("O número já existe!");
-        break;
+        break; // trava se o numero já existir
     } else {
         numeros.add(num);
     }
 
-} while (numeros.size < 10);
+} while (numeros.size < 10); //Limitador
 
 console.log("Listar dados do Set: ");
 console.log(numeros);
