@@ -1,4 +1,4 @@
-import readlineSync from "readline-sync";
+import * as readlineSync from "readline-sync";
 
 const numeros = new Set<number>();
 let num: number;

@@ -1,4 +1,4 @@
-import readlineSync from "readline-sync";
+import * as readlineSync from "readline-sync";
 
 const numero: Array<number> = [2, 5, 1, 3, 4, 9, 7, 8, 10, 6];
 let encontrado: boolean = false;
