@@ -9,7 +9,7 @@ do{
     console.log("      1 - Adicionar Cliente na Fila")
     console.log("      2 - Listar todos os Cliente")
     console.log("      3 - Retirar Cliente da Fila")
-    console.log("      0 - Sar")
+    console.log("      0 - Sair")
     console.log("\n===========================================\n")
 
     opcao = readlineSync.questionInt("Digite uma opção: ")
